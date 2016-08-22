@@ -17,7 +17,7 @@ For futher information please see CodeBook.md at this repository
 1. Open the terminal and clone this repo and enter the GettingAndCleaningData created directory
 2. Run the script:
     * if using RStudio: open RStudio the file (Menu > File > Open File ...) source and run the script
-3. See the result csv file at _output_data/tidyData.csv
+3. See the result csv file at _output_data/tidyData.txt
 
 
 

@@ -123,6 +123,6 @@ The final dataset extracts only the measurements on the mean and standard deviat
 9. Simplifies and changes column names for the new data set
 9. Replaces activity number reference with the appropiate activity name
 10. Creates a tidy dataset that consists of the average value of each variable for each subject and activity pair.
-11. Saves tidy data into a new file at the working directory root
+11. Saves tidy data into a new file at _output_data dir
 
 All this steps are commented inside the script following by the code that execute every action
