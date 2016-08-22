@@ -63,14 +63,13 @@ completeData$activity <- factor(completeData$activity, levels = activities[,1], 
 tidyData            <- melt(completeData, id = c("subject", "activity"))
 tidyData            <- dcast(tidyData, subject + activity ~ variable, mean)
 
-print(str(tidyData))
 # Saves data
 
 # saves tidy data into a new file at the working space root
 if (!file.exists("_output_data")) {
   dir.create("_output_data")
 }
-write.csv(tidyData, "./_output_data/tidyData.csv")
+write.table(tidyData, "./_output_data/tidyData.txt", row.name=FALSE)
 
 
 
