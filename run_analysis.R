@@ -1,5 +1,3 @@
-#!/usr/local/bin/Rscript
-
 # changes work directory to current folder
 setwd(getSrcDirectory(function(x) {x}))
 
